@@ -15,5 +15,5 @@ setup(
     license="MIT",
     author="José Augusto Salim",
     author_email="zedomel@gmail.com",
-    description="Python wrapper for the Moloni API",
+    description="Python wrapper for the Moloni API"
 )
