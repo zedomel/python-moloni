@@ -74,7 +74,7 @@ class MyAuth:
         return AccessTokenResponse(
             **request(
                 method="GET",
-                url=self.base_url + "/v1/grant",
+                url=self.base_url + "/grant",
                 headers=self.headers,
                 params=kwargs,
             ).json()
