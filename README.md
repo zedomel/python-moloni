@@ -1,7 +1,7 @@
 PYTHON-MOLONI
 ==============
 
-Welcome to the Moloni API Client! This Python package provides a simple and flexible way to interact with the Moloni API. It supports a wide range of endpoints and allows you to manage your Moloni account programmatically.
+Welcome to the **Moloni API Client**! This Python package provides a simple and flexible way to interact with the Moloni API. It supports a wide range of endpoints and allows you to manage your Moloni account programmatically.
 
 ## Table of Contents
 
