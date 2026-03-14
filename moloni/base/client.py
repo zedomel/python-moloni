@@ -1,4 +1,5 @@
 import os
+from urllib.parse import urljoin
 
 from cachetools import TTLCache
 from pydantic import BaseModel
@@ -115,7 +116,7 @@ class MoloniBaseClient:
         self.validate = validate
         self.version = version
         self.auth = MyAuth(
-            environment,
+            urljoin(environment, version),
             auth_config.client_id,
             auth_config.client_secret,
             auth_config.refresh_token,
